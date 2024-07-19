@@ -33,15 +33,16 @@ body {
 }
 
 h2 {
+  padding-bottom: 25px;
   text-align: center;
-  color: #d24d57; /* Bittersweet */
+  color: #FE6F5E; /* Bittersweet */
 }
 
 .accordion .accordion-item {
   border-bottom: 1px solid #e5e5e5;
 }
 .accordion .accordion-item button[aria-expanded=true] {
-  border-bottom: 1px solid #d24d57; /* Bittersweet */
+  border-bottom: 1px solid #FE6F5E; /* Bittersweet */
 }
 .accordion button {
   position: relative;
@@ -59,7 +60,7 @@ h2 {
 }
 .accordion button:hover, .accordion button:focus {
   cursor: pointer;
-  color: #d24d57; /* Bittersweet */
+  color: #FE6F5E; /* Bittersweet */
 }
 .accordion button .accordion-title {
   padding: 1em 1.5em 1em 0;
@@ -98,10 +99,10 @@ h2 {
   transition: background-color 0.3s ease;
 }
 .accordion button[aria-expanded=true] {
-  color: #d24d57; /* Bittersweet */
+  color: #FE6F5E; /* Bittersweet */
 }
 .accordion button[aria-expanded=true] .icon {
-  border-color: #d24d57; /* Bittersweet */
+  border-color: #FE6F5E; /* Bittersweet */
 }
 .accordion button[aria-expanded=true] .icon::after {
   width: 0;
